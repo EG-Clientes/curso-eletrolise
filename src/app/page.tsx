@@ -7,7 +7,6 @@ import SobreEspecialista from "@/components/SobreEspecialista";
 import Oferta from "@/components/Oferta";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
-import SeoDossie from "@/components/SeoDossie";
 
 export default function Home() {
   return (
@@ -20,7 +19,6 @@ export default function Home() {
       <SobreEspecialista />
       <Oferta />
       <Faq />
-      <SeoDossie />
       <Footer />
     </main>
   );
