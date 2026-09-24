@@ -43,9 +43,9 @@ export default function SeoDossie() {
         "A procura por tratamentos definitivos para pelos resistentes cresce vertiginosamente devido à saturação do mercado de laser. Com a especialização em eletrólise, seu consultório se torna referência regional exclusiva, cobrando por hora trabalhada e recuperando o investimento do curso de eletrólise logo nos primeiros clientes fixos."
     },
     {
-      titulo: "8. O método Raiz Eletrólise na Especialização em Eletrólise",
+      titulo: "8. Áreas de aplicação e casos complexos na Especialização em Eletrólise",
       conteudo:
-        "O método exclusivo desenvolvido por Dilene Araújo une prática ergonômica, calibração perfeita de potência e experiência sensorial acolhedora para a cliente. A especialização em eletrólise através deste curso de eletrólise posiciona você na vanguarda da depilação elétrica definitiva no Brasil."
+        "Neste curso de eletrólise, você aprende a atuar com precisão cirúrgica desde regiões delicadas da face (como buço, queixo e sobrancelhas) até áreas corporais desafiadoras. A especialização em eletrólise capacita o profissional para resolver com maestria casos de foliculite severa, pelos hormonais e fios brancos ou loiros em qualquer fototipo, dominando a eletroepilação onde nenhuma outra tecnologia consegue entregar resultados."
     }
   ];
 
@@ -60,7 +60,7 @@ export default function SeoDossie() {
           aria-expanded={isOpen}
         >
           <span className="text-sm sm:text-base font-semibold text-slate-500 group-hover:text-emerald-900 transition-colors">
-            Dossiê Técnico: Especialização em Eletrólise (Eletroepilação Definitiva)
+            Especialização em Eletrólise - Depilação Definitiva
           </span>
           <ChevronDown
             className={`w-4 h-4 text-slate-400 group-hover:text-emerald-800 transition-transform duration-300 ${

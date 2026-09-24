@@ -47,9 +47,6 @@ export default function SobreEspecialista() {
                   <h3 className="text-xl sm:text-2xl font-bold text-white leading-tight">
                     Dilene Araújo
                   </h3>
-                  <p className="text-xs text-slate-300 mt-1 font-light">
-                    Fundadora da clínica Raiz Eletrólise (São Paulo)
-                  </p>
                 </div>
               </div>
 
@@ -84,13 +81,13 @@ export default function SobreEspecialista() {
 
             <div className="space-y-4 text-base sm:text-lg text-slate-800 leading-relaxed font-normal">
               <p>
-                <strong>Dilene Araújo</strong> é especialista em depilação definitiva por eletrólise, com formação técnica internacional pela prestigiada <strong>Long Island School of Electrolysis Inc. em Nova York (EUA)</strong>, berço do desenvolvimento do método moderno.
+                <strong>Dilene Araújo</strong> é especialista em depilação definitiva por eletrólise, com formação técnica internacional pela prestigiada <strong>Long Island School of Electrolysis Inc. em Nova York</strong>. Os Estados Unidos são o berço do desenvolvimento do método.
               </p>
               <p>
                 No comando de sua clínica própria em São Paulo (Raiz Eletrólise), Dilene atende diariamente clientes que já haviam passado por anos de tratamentos a laser sem sucesso — especialmente em <strong>pelos brancos, loiros, alterações hormonais na menopausa e foliculite severa</strong>.
               </p>
               <p className="font-medium text-emerald-950">
-                Esta especialização foi criada para transmitir todo o rigor teórico, anatomia folicular e parametrização das correntes, permitindo que você atenda com segurança e se torne a maior referência da sua cidade.
+                Esta especialização foi criada para transmitir todo o rigor teórico, anatomia folicular e parametrização das correntes.
               </p>
             </div>
 
@@ -116,7 +113,7 @@ export default function SobreEspecialista() {
                 <Award className="w-5 h-5 text-emerald-700 shrink-0 mt-1" />
                 <div>
                   <h4 className="text-sm font-bold text-slate-900">Método Autoral</h4>
-                  <p className="text-xs text-slate-600 mt-0.5">Didática clara para aplicação clínica segura.</p>
+                  <p className="text-xs text-slate-600 mt-0.5">Claro e compreensível.</p>
                 </div>
               </div>
             </div>

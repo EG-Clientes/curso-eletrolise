@@ -36,8 +36,7 @@ export default function Oferta() {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-medium">
-            Tenha em mãos a formação teórica de alto nível e o acompanhamento próximo de quem é pioneira 
-            para nunca mais deixar dinheiro na mesa da sua clínica.
+            Tenha em mãos a formação teórica de alto nível e o acompanhamento próximo de quem é pioneira.
           </p>
         </div>
 
@@ -52,10 +51,13 @@ export default function Oferta() {
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-8 border-b border-emerald-800/60 mb-8">
               <div>
                 <span className="px-3.5 py-1.5 rounded-full bg-amber-400/20 text-amber-300 text-xs font-bold uppercase tracking-wider border border-amber-300/30">
-                  Turma com Mentoria ao Vivo
+                  Turma com Mentoria Online ao Vivo
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-bold text-white tracking-tight mt-3">
                   Especialização Avançada em Eletrólise
+                  <span className="block font-serif italic font-medium text-amber-300 text-xl sm:text-2xl mt-1">
+                    Depilação Definitiva
+                  </span>
                 </h3>
                 <p className="text-sm text-emerald-200 mt-1">
                   por Dilene Araújo • Certificação Internacional em NY
@@ -81,14 +83,14 @@ export default function Oferta() {
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-amber-300 shrink-0 mt-0.5" />
                     <span className="text-sm sm:text-base text-emerald-50">
-                      <strong>20 horas de conteúdo teórico autoral:</strong> anatomia folicular, física das correntes, termólise e anamnese.
+                      <strong>20 horas de conteúdo teórico autoral:</strong> anatomia folicular, galvânica, termólise, método blend e anamnese.
                     </span>
                   </div>
 
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-amber-300 shrink-0 mt-0.5" />
                     <span className="text-sm sm:text-base text-emerald-50">
-                      <strong>4 encontros semanais de mentoria ao vivo:</strong> 120 minutos por domingo com Dilene Araújo (a partir do 15º dia).
+                      <strong>4 encontros semanais de mentoria online ao vivo:</strong> 120 minutos com Dilene Araújo (a partir do 15º dia).
                     </span>
                   </div>
 
@@ -109,7 +111,7 @@ export default function Oferta() {
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-amber-300 shrink-0 mt-0.5" />
                     <span className="text-sm sm:text-base text-emerald-50">
-                      <strong>Espaço tira-dúvidas exclusivo:</strong> traga casos práticos da sua clínica para análise da mentora.
+                      <strong>Espaço tira-dúvidas exclusivo:</strong> Tire suas dúvidas diretamente com a mentora sobre os módulos, parâmetros das correntes e aplicação correta do método.
                     </span>
                   </div>
                 </div>
@@ -124,10 +126,13 @@ export default function Oferta() {
                 {/* Preço em Destaque Oficial */}
                 <div className="my-4">
                   <span className="text-4xl sm:text-5xl font-black text-white tracking-tight">
-                    R$ 2.510<span className="text-2xl font-bold text-amber-300">,00</span>
+                    R$ 4.310<span className="text-2xl font-bold text-amber-300">,00</span>
                   </span>
                   <p className="text-xs sm:text-sm text-emerald-200 mt-1 font-medium">
                     à vista ou parcelado no cartão de crédito
+                  </p>
+                  <p className="text-[11px] text-emerald-200/70 mt-0.5 font-normal">
+                    (parcelamento com acréscimo de juros)
                   </p>
                 </div>
 

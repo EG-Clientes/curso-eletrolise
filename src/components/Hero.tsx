@@ -20,13 +20,6 @@ export default function Hero() {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Tag exclusiva para Mobile: fica acima da foto */}
-        <div className="flex lg:hidden justify-center mb-5 animate-fade-up">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/10 border border-emerald-800/15 text-emerald-900 text-xs font-bold tracking-wide uppercase shadow-xs text-center">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-700 shrink-0" />
-            <span>Do conhecimento à segurança na prática profissional</span>
-          </div>
-        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
@@ -75,11 +68,6 @@ export default function Hero() {
           {/* COPY EDITORIAL */}
           <div className="order-2 lg:order-1 lg:col-span-7 flex flex-col items-start text-left animate-slide-left">
             
-            {/* Tag visível apenas no Desktop (já que no mobile ela está no topo) */}
-            <div className="hidden lg:inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/10 border border-emerald-800/15 text-emerald-900 text-xs sm:text-sm font-bold tracking-wide uppercase mb-5">
-              <Sparkles className="w-4 h-4 text-emerald-700" />
-              <span>Do conhecimento à segurança na prática profissional</span>
-            </div>
 
             {/* Headline limpa, elegante, sem traços e com destaque verde */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.18] mb-5">
@@ -104,7 +92,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-2.5 text-slate-800 font-medium text-sm sm:text-base">
                 <CalendarCheck className="w-5 h-5 text-emerald-700 shrink-0" />
-                <span>4 Encontros de Mentoria ao Vivo (Domingos)</span>
+                <span>4 Encontros de Mentoria Online ao Vivo</span>
               </div>
               <div className="flex items-center gap-2.5 text-slate-800 font-medium text-sm sm:text-base">
                 <Award className="w-5 h-5 text-emerald-700 shrink-0" />

@@ -8,15 +8,15 @@ export default function Faq() {
   const duvidas = [
     {
       pergunta: "O aparelho / equipamento de eletrólise está incluso no valor?",
-      resposta: "Não. Esta é uma especialização teórica avançada focada no domínio científico da técnica (anatomia, parametrização de correntes elétricas, termólise e biossegurança). O equipamento não está incluso e a prática profissional na sua clínica depende das regulamentações do conselho de classe da sua região."
+      resposta: "Não. Esta é uma especialização teórica avançada focada no domínio científico da técnica (anatomia folicular, métodos galvânica, termólise, blend e biossegurança). O equipamento não está incluso e a prática profissional na sua clínica depende das regulamentações do conselho de classe da sua região."
     },
     {
       pergunta: "Quando recebo o material didático autoral para download?",
-      resposta: "Ao se matricular, você tem liberação parcial imediata do conteúdo em vídeo/aulas para já iniciar seus estudos. A liberação completa do material didático autoral com todos os slides e arquivos para download definitivo é liberada a partir do 8º dia da compra."
+      resposta: "Ao se matricular, você tem liberação parcial imediata do conteúdo em aulas para já iniciar seus estudos. A liberação completa do material didático autoral com todos os slides e PDF para download definitivo é liberada a partir do 8º dia da compra."
     },
     {
       pergunta: "Como e quando acontecem as mentorias ao vivo com Dilene Araújo?",
-      resposta: "Os encontros ao vivo iniciam a partir do 15º dia após a compra, garantindo que você já tenha assistido e absorvido a base teórica. São 4 encontros aos domingos, com duração de 120 minutos cada (8 horas no total), em turmas fechadas para tirar dúvidas práticas e analisar casos reais (sujeito a aviso prévio caso haja ajuste de agenda)."
+      resposta: "Os encontros ao vivo online iniciam a partir do 15º dia após a compra, garantindo que você já tenha assistido e absorvido a base teórica. São 4 encontros aos domingos, com duração de 120 minutos cada (8 horas no total), em turmas fechadas para tirar dúvidas."
     },
     {
       pergunta: "A eletrólise realmente funciona em pelos brancos, claros e ruivos?",
@@ -27,8 +27,12 @@ export default function Faq() {
       resposta: "Sim! Ao cumprir as 20 horas da formação e participar das etapas do curso, você receberá o Certificado Digital de Conclusão da Especialização Avançada em Eletrólise assinado pela especialista Dilene Araújo, comprovando sua capacitação teórica."
     },
     {
+      pergunta: "Quem pode fazer o curso?",
+      resposta: "A especialização é destinada a esteticistas e profissionais da área da saúde que desejam se especializar na técnica definitiva de eletrólise."
+    },
+    {
       pergunta: "Quais são as formas de pagamento disponíveis na Hotmart?",
-      resposta: "Você pode realizar o investimento de R$ 2.510,00 à vista via Pix, boleto bancário ou parcelar em até 12 vezes no cartão de crédito diretamente pela plataforma segura da Hotmart, com total proteção dos seus dados bancários."
+      resposta: "Você pode realizar o investimento de R$ 4.310,00 à vista via Pix, boleto bancário ou parcelar em até 12 vezes no cartão de crédito diretamente pela plataforma segura da Hotmart, com total proteção dos seus dados bancários."
     }
   ];
 
@@ -119,7 +123,7 @@ export default function Faq() {
                 Pronta para ser a maior referência na sua região?
               </h4>
               <p className="text-xs sm:text-sm text-emerald-200/90 mt-1 font-normal max-w-md">
-                Garanta sua vaga na turma fechada com 4 mentorias ao vivo antes do término das inscrições.
+                Garanta sua vaga na turma fechada com 4 mentorias ao vivo online antes do término das inscrições.
               </p>
             </div>
 

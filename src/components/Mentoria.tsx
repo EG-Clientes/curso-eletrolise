@@ -29,11 +29,6 @@ export default function Mentoria() {
       icone: Users,
       titulo: "Turmas Fechadas e Reduzidas",
       descricao: "Nada de salas lotadas com milhares de pessoas. As vagas são limitadas para que você tenha espaço real de fala e atenção individualizada."
-    },
-    {
-      icone: HelpCircle,
-      titulo: "Estudo de Casos & Tira-Dúvidas",
-      descricao: "Traga as dúvidas dos seus atendimentos, fotos de clientes, casos difíceis de foliculite ou pelos resistentes para avaliar junto com a mentora."
     }
   ];
 
@@ -45,7 +40,7 @@ export default function Mentoria() {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/10 border border-emerald-800/20 text-emerald-950 text-xs sm:text-sm font-bold tracking-wide uppercase mb-4">
             <Sparkles className="w-4 h-4 text-emerald-700" />
-            <span>Acompanhamento Próximo e Real</span>
+            <span>Acompanhamento Próximo</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-5">
@@ -56,8 +51,8 @@ export default function Mentoria() {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-medium">
-            O grande diferencial desta formação é o acesso direto à mentora. Encontros aos domingos, 
-            pensados sob medida para a sua rotina de atendimentos durante a semana.
+            O grande diferencial desta formação é o acesso direto à mentora. Encontros online semanais, 
+            pensados sob medida para a sua rotina de atendimentos.
           </p>
         </div>
 
@@ -86,26 +81,26 @@ export default function Mentoria() {
             </div>
           </div>
 
-          {/* Lado Direito: Grid 2x2 no Mobile (Compacto e Elegante) e no Desktop */}
-          <div className="lg:col-span-7 grid grid-cols-2 gap-3 sm:gap-6">
+          {/* Lado Direito: 3 Pilares Horizontais Perfeitamente Alinhados */}
+          <div className="lg:col-span-7 flex flex-col justify-center gap-4 sm:gap-5">
             {pilaresMentoria.map((pilar, index) => {
               const Icone = pilar.icone;
               return (
                 <div 
                   key={index}
-                  className="bg-[#FAF9F6] rounded-2xl sm:rounded-3xl p-4 sm:p-7 border border-emerald-950/10 hover:border-emerald-800/30 transition-all duration-300 shadow-xs hover:shadow-md flex flex-col justify-between"
+                  className="bg-[#FAF9F6] rounded-2xl sm:rounded-3xl p-5 sm:p-6 border border-emerald-950/10 hover:border-emerald-800/30 transition-all duration-300 shadow-xs hover:shadow-md flex items-start gap-4 sm:gap-5"
                 >
+                  <div className="w-12 h-12 rounded-2xl bg-emerald-900 text-amber-300 flex items-center justify-center shrink-0 shadow-inner mt-0.5">
+                    <Icone className="w-6 h-6" />
+                  </div>
                   <div>
-                    <div className="w-9 h-9 sm:w-12 sm:h-12 rounded-xl bg-emerald-900 text-amber-300 flex items-center justify-center mb-3 sm:mb-5 shadow-inner">
-                      <Icone className="w-4 h-4 sm:w-6 sm:h-6" />
-                    </div>
-                    <h3 className="text-xs sm:text-xl font-bold text-slate-900 mb-1 sm:mb-2 leading-tight">
+                    <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-1 leading-snug">
                       {pilar.titulo}
                     </h3>
+                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal sm:font-medium">
+                      {pilar.descricao}
+                    </p>
                   </div>
-                  <p className="text-[11px] sm:text-sm text-slate-700 leading-snug sm:leading-relaxed font-normal sm:font-medium mt-1">
-                    {pilar.descricao}
-                  </p>
                 </div>
               );
             })}
@@ -130,7 +125,7 @@ export default function Mentoria() {
                   4 Encontros aos Domingos • A partir do 15º dia
                 </h4>
                 <p className="text-xs sm:text-sm text-slate-700 font-medium leading-relaxed max-w-xl mt-1">
-                  Encontros virtuais em grupo reduzido para tirar dúvidas de atendimentos reais. <span className="text-slate-500 font-normal">(Sujeito a mudança de dia/horário com aviso prévio).</span>
+                  Encontros virtuais em grupo reduzido para tirar dúvidas. <span className="text-slate-500 font-normal">(Sujeito a mudança de dia/horário com aviso prévio).</span>
                 </p>
               </div>
             </div>

@@ -7,9 +7,15 @@ import { Menu, X, ArrowRight } from "lucide-react";
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  // Rolagem suave para o topo
+  // Rolagem suave para o topo (ou volta pra home se estiver em outra página)
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    if (typeof window !== "undefined") {
+      if (window.location.pathname === "/") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        window.location.href = "/";
+      }
+    }
   };
 
   // Trava a rolagem do fundo quando a gaveta lateral do mobile estiver aberta
@@ -50,50 +56,53 @@ export default function Navbar() {
                 <span className="font-bold text-xl sm:text-2xl tracking-tight text-emerald-950 leading-tight whitespace-nowrap">
                   Dilene Araújo
                 </span>
-                <span className="text-xs sm:text-sm uppercase tracking-wider text-emerald-700 font-bold whitespace-nowrap">
+                <span className="text-xs sm:text-sm uppercase tracking-wider text-emerald-700 font-bold whitespace-nowrap mt-1 leading-tight">
                   Especialização em Eletrólise
+                </span>
+                <span className="text-xs sm:text-sm uppercase tracking-wider text-emerald-800 font-bold whitespace-nowrap leading-tight">
+                  Depilação Definitiva
                 </span>
               </div>
             </button>
 
             {/* Links Desktop em Linha Única sem quebra (whitespace-nowrap) */}
-            <nav className="hidden lg:flex items-center gap-4 xl:gap-6 ml-8 xl:ml-12">
+            <nav className="hidden lg:flex items-center gap-3.5 xl:gap-5 ml-4 xl:ml-6">
               <a
-                href="#diferencial"
-                className="text-base font-semibold text-slate-700 hover:text-emerald-800 transition-colors whitespace-nowrap"
+                href="/"
+                className="text-base font-semibold text-slate-800 hover:text-emerald-800 transition-colors whitespace-nowrap"
+              >
+                Início
+              </a>
+              <a
+                href="/#diferencial"
+                className="text-base font-semibold text-slate-800 hover:text-emerald-800 transition-colors whitespace-nowrap"
               >
                 O Diferencial
               </a>
               <a
-                href="#metodo"
-                className="text-base font-semibold text-slate-700 hover:text-emerald-800 transition-colors whitespace-nowrap"
+                href="/#metodo"
+                className="text-base font-semibold text-slate-800 hover:text-emerald-800 transition-colors whitespace-nowrap"
               >
                 Conteúdo
               </a>
               <a
-                href="#mentoria"
-                className="text-base font-semibold text-slate-700 hover:text-emerald-800 transition-colors whitespace-nowrap"
+                href="/#mentoria"
+                className="text-base font-semibold text-slate-800 hover:text-emerald-800 transition-colors whitespace-nowrap"
               >
                 Mentoria ao Vivo
               </a>
               <a
-                href="#especialista"
-                className="text-base font-semibold text-slate-700 hover:text-emerald-800 transition-colors whitespace-nowrap"
+                href="/#especialista"
+                className="text-base font-semibold text-slate-800 hover:text-emerald-800 transition-colors whitespace-nowrap"
               >
                 Sobre a Mentora
-              </a>
-              <a
-                href="#faq"
-                className="text-base font-semibold text-slate-700 hover:text-emerald-800 transition-colors whitespace-nowrap"
-              >
-                Dúvidas
               </a>
             </nav>
 
             {/* CTA Desktop Mais Compacto (Sem atropelar o menu) */}
             <div className="hidden md:flex items-center shrink-0 ml-4">
               <a
-                href="#inscricao"
+                href="/#inscricao"
                 className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full text-sm font-bold text-white bg-emerald-700 hover:bg-emerald-800 transition-all duration-300 shadow-sm hover:shadow-md active:scale-95 whitespace-nowrap"
               >
                 <span>Quero Me Especializar Agora</span>
@@ -145,11 +154,11 @@ export default function Navbar() {
         {/* Links com o Design Editorial da Imagem (Divisórias + Sinal de '+') */}
         <nav className="px-7 pt-3 flex flex-col">
           {[
-            { label: "O Diferencial", href: "#diferencial" },
-            { label: "Conteúdo Programático", href: "#metodo" },
-            { label: "Mentoria ao Vivo", href: "#mentoria" },
-            { label: "Sobre a Mentora", href: "#especialista" },
-            { label: "Dúvidas Frequentes", href: "#faq" },
+            { label: "Início", href: "/" },
+            { label: "O Diferencial", href: "/#diferencial" },
+            { label: "Conteúdo", href: "/#metodo" },
+            { label: "Mentoria ao Vivo", href: "/#mentoria" },
+            { label: "Sobre a Mentora", href: "/#especialista" },
           ].map((item, index) => (
             <a
               key={index}
@@ -170,7 +179,7 @@ export default function Navbar() {
         {/* Botão de Inscrição Mais Fino e em Linha Única */}
         <div className="px-6 pt-3 pb-6">
           <a
-            href="#inscricao"
+            href="/#inscricao"
             onClick={() => setMobileMenuOpen(false)}
             className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-full text-sm font-bold text-white bg-emerald-800 hover:bg-emerald-900 shadow-md active:scale-95 transition-all text-center whitespace-nowrap"
           >

@@ -28,19 +28,19 @@ export default function GradeConteudo() {
     {
       numero: "02",
       icone: Zap,
-      titulo: "Correntes Elétricas & Termólise",
-      descricao: "O coração da técnica. O funcionamento da corrente alternada de alta frequência gerando calor térmico na água tecidual, destruindo as células matrizes de forma permanente.",
+      titulo: "Galvânica, Termólise & Blend",
+      descricao: "O coração da técnica. O funcionamento da corrente galvânica (química), da termólise (térmica) e do método Blend (a fusão das duas) para a destruição definitiva da raiz do pelo.",
       itens: [
-        "Física das correntes aplicadas à eletrólise",
-        "Termólise: calor, intensidade e tempo de pulso",
-        "Calibração de potência conforme espessura e região do pelo"
+        "Corrente Galvânica: ação química direta no folículo",
+        "Termólise: alta frequência e coagulação térmica",
+        "Método Blend: a combinação exata das duas correntes"
       ]
     },
     {
       numero: "03",
       icone: ShieldCheck,
       titulo: "Biossegurança e Protocolos Clínicos",
-      descricao: "Atuação blindada e sem riscos. Normas sanitárias indispensáveis, cuidados com a barreira cutânea, prevenção rigorosa de hiperpigmentação pós-inflamatória e esterilização.",
+      descricao: "Normas sanitárias indispensáveis, cuidados com a barreira cutânea, prevenção rigorosa de hiperpigmentação pós-inflamatória e esterilização.",
       itens: [
         "Assepsia e preparo correto da pele do cliente",
         "Parâmetros seguros para não lesionar a epiderme",
@@ -51,7 +51,7 @@ export default function GradeConteudo() {
       numero: "04",
       icone: ClipboardCheck,
       titulo: "Anamnese & Avaliação Personalizada",
-      descricao: "O diagnóstico seguro antes de qualquer procedimento. Como identificar contraindicações absolutas, avaliar fototipos e construir a confiança imediata da cliente.",
+      descricao: "O diagnóstico seguro antes de qualquer procedimento. Como identificar contraindicações, avaliar fototipos e construir a confiança imediata do cliente.",
       itens: [
         "Montagem da ficha de anamnese especializada",
         "Contraindicações clínicas e histórico hormonal",
@@ -72,15 +72,40 @@ export default function GradeConteudo() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-5">
-            20 horas de conteúdo autoral desenhado para te dar{" "}
+            20 horas de conteúdo autoral desenhado para você{" "}
             <span className="font-serif italic font-medium text-emerald-800">
-              segurança clínica absoluta.
+              dominar a técnica com excelência.
             </span>
           </h2>
 
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-medium">
             Você não vai receber dicas soltas de internet. É uma metodologia com embasamento científico, 
             estruturada passo a passo por quem domina a técnica há anos no mercado.
+          </p>
+        </div>
+
+        {/* Destaque: O Método Raiz Eletrólise - Padrão Slim Editorial */}
+        <div className="max-w-4xl mx-auto mb-12 py-4 px-5 sm:py-5 sm:px-7 rounded-2xl sm:rounded-3xl bg-white border border-emerald-900/15 shadow-xs relative overflow-hidden flex flex-col md:flex-row md:items-center gap-3 sm:gap-6">
+          {/* Filete luxo na borda esquerda */}
+          <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-emerald-800 via-amber-300 to-emerald-700" />
+          
+          {/* Lado Esquerdo: Tag e Título Compacto */}
+          <div className="md:w-5/12 shrink-0 pl-1">
+            <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-emerald-900/10 text-emerald-900 text-[10px] font-bold uppercase tracking-wider mb-1">
+              <Sparkles className="w-3 h-3 text-emerald-700" />
+              <span>Assinatura Autoral</span>
+            </div>
+            <h3 className="text-sm sm:text-base font-bold text-slate-900 leading-snug">
+              O método Raiz Eletrólise na Especialização em Eletrólise
+            </h3>
+          </div>
+
+          {/* Divisória vertical apenas no desktop */}
+          <div className="hidden md:block w-px h-14 bg-emerald-950/10 shrink-0" />
+
+          {/* Lado Direito: Texto Exato com Alto Contraste e Destaque Visual */}
+          <p className="text-xs sm:text-sm text-slate-800 leading-relaxed font-normal">
+            O método exclusivo desenvolvido por <strong>Dilene Araújo</strong> une <strong>prática ergonômica</strong>, <strong>calibração perfeita de potência</strong> e <strong>experiência sensorial acolhedora</strong> para a cliente. A especialização em eletrólise através deste curso de eletrólise posiciona você na <strong className="text-emerald-950 font-bold">vanguarda da depilação elétrica definitiva no Brasil</strong>.
           </p>
         </div>
 

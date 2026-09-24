@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Lock, MapPin, Phone } from "lucide-react";
 
 export default function Footer() {
@@ -35,10 +36,6 @@ export default function Footer() {
 
           {/* Endereço e Contato Rápidos em uma linha */}
           <div className="flex flex-wrap items-center justify-center gap-5 text-xs text-emerald-200/80">
-            <span className="flex items-center gap-1.5">
-              <MapPin className="w-3.5 h-3.5 text-amber-300 shrink-0" />
-              <span>São Bernardo do Campo — SP</span>
-            </span>
             <span className="flex items-center gap-1.5 text-emerald-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/10">
               <Lock className="w-3 h-3 text-amber-300 shrink-0" />
               <span>Checkout Oficial Hotmart</span>
@@ -46,12 +43,13 @@ export default function Footer() {
           </div>
 
           {/* Links Rápidos Âncora */}
-          <div className="flex items-center gap-5 text-xs text-emerald-100/70">
-            <a href="#diferencial" className="hover:text-amber-200 transition-colors">Diferencial</a>
-            <a href="#metodo" className="hover:text-amber-200 transition-colors">Conteúdo</a>
-            <a href="#mentoria" className="hover:text-amber-200 transition-colors">Mentoria</a>
-            <a href="#faq" className="hover:text-amber-200 transition-colors">Dúvidas</a>
-            <a href="#inscricao" className="text-amber-300 font-bold hover:underline">Matrícula</a>
+          <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2.5 text-xs text-emerald-100/70 text-center">
+            <Link href="/termos" className="text-amber-300 font-bold hover:underline whitespace-nowrap">Termos de Compra e Uso</Link>
+            <a href="#inscricao" className="text-amber-300 font-bold hover:underline whitespace-nowrap">Matrícula</a>
+            <a href="#diferencial" className="hover:text-amber-200 transition-colors whitespace-nowrap">Diferencial</a>
+            <a href="#metodo" className="hover:text-amber-200 transition-colors whitespace-nowrap">Conteúdo</a>
+            <a href="#mentoria" className="hover:text-amber-200 transition-colors whitespace-nowrap">Mentoria</a>
+            <a href="#faq" className="hover:text-amber-200 transition-colors whitespace-nowrap">Dúvidas</a>
           </div>
 
         </div>
@@ -59,7 +57,7 @@ export default function Footer() {
         {/* Linha Final: Avisos Legais e Transparência Literais do Print 06 */}
         <div className="pt-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-emerald-200/50 text-center sm:text-left">
           <p>
-            Formação teórica online. A prática profissional depende das normas da sua região. Equipamento não incluso. Investimento: R$ 2.510,00.
+            Formação teórica online. A prática profissional depende das normas da sua região. Equipamento não incluso. Investimento: R$ 4.310,00.
           </p>
           <p className="shrink-0">
             Conteúdo autoral © Dilene Araújo — todos os direitos reservados.

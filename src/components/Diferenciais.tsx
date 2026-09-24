@@ -19,13 +19,13 @@ export default function Diferenciais() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-5">
             Por que o mercado precisa de você dominando a{" "}
             <span className="font-serif italic font-normal text-emerald-800">
-              eletrólise avançada?
+              eletrólise?
             </span>
           </h2>
 
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-normal">
             O laser revolucionou a estética, mas deixou uma lacuna milionária aberta. Diariamente, clientes 
-            procuram clínicas para remover pelos que o laser simplesmente não enxerga.
+            procuram clínicas para remover pelos que o laser simplesmente não reconhece.
           </p>
         </div>
 
@@ -123,7 +123,7 @@ export default function Diferenciais() {
             <div className="lg:col-span-7 flex flex-col justify-center text-left">
               <div className="inline-flex items-center gap-2 text-emerald-800 font-bold text-xs uppercase tracking-wider mb-2">
                 <HeartHandshake className="w-4 h-4" />
-                <span>Casos Clínicos Reais</span>
+                
               </div>
               
               <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-4 leading-snug">
@@ -133,7 +133,7 @@ export default function Diferenciais() {
               <p className="text-base sm:text-lg text-slate-700 leading-relaxed mb-6 font-medium">
                 Seja para fios resistentes no queixo e buço (comuns após a menopausa), sobrancelhas, 
                 pescoço, ou em procedimentos de <strong>alta demanda como virilha e áreas íntimas</strong> com 
-                foliculite crônica. Você terá a base teórica completa para atender qualquer região com segurança absoluta.
+                foliculite crônica.
               </p>
 
               {/* Badges de Cobertura com Contraste Marcante e Nítido */}
