@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import { Lock, MapPin, Phone } from "lucide-react";
 
 export default function Footer() {
@@ -35,11 +36,26 @@ export default function Footer() {
           </div>
 
           {/* Endereço e Contato Rápidos em uma linha */}
-          <div className="flex flex-wrap items-center justify-center gap-5 text-xs text-emerald-200/80">
+          <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-emerald-200/80">
             <span className="flex items-center gap-1.5 text-emerald-300 bg-white/5 px-2.5 py-1 rounded-md border border-white/10">
               <Lock className="w-3 h-3 text-amber-300 shrink-0" />
               <span>Checkout Oficial Hotmart</span>
             </span>
+
+            {/* Selo Interativo Avctoris com Script */}
+            <Script 
+              src="https://registro.avctoris.com/js/avctoris-badge-widget.js" 
+              strategy="lazyOnload" 
+            />
+            <div 
+              className="avctoris-badge medium flex items-center cursor-pointer" 
+              data-badge-url="https://registro.avctoris.com/api/badges/059e32668a82f86be7d6f30d571fd648bae404c826a277756154ae21cc654b7b"
+              onClickCapture={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                window.open("https://registro.avctoris.com/badge/059e32668a82f86be7d6f30d571fd648bae404c826a277756154ae21cc654b7b", "_blank", "noopener,noreferrer");
+              }}
+            />
           </div>
 
           {/* Links Rápidos Âncora */}

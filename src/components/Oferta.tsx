@@ -36,7 +36,7 @@ export default function Oferta() {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-medium">
-            Tenha em mãos a formação teórica de alto nível e o acompanhamento próximo de quem é pioneira.
+            Tenha em mãos a formação teórica de alto nível e o acompanhamento próximo de quem é expert no assunto.
           </p>
         </div>
 

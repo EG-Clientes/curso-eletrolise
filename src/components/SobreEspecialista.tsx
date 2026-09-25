@@ -20,8 +20,8 @@ export default function SobreEspecialista() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-center">
           
-          {/* LADO ESQUERDO: Foto Imponente com Selos de NY */}
-          <div className="lg:col-span-5 relative flex justify-center">
+          {/* LADO ESQUERDO: Foto Imponente + Diploma Integrado */}
+          <div className="lg:col-span-5 flex flex-col items-center gap-6">
             <div className="relative w-full max-w-md">
               
               {/* Moldura com gradiente de luxo */}
@@ -51,7 +51,7 @@ export default function SobreEspecialista() {
               </div>
 
               {/* Selo Flutuante: Formação Americana */}
-              <div className="absolute -top-4 -left-4 sm:-left-6 bg-white/95 backdrop-blur-md border border-emerald-900/15 rounded-2xl p-4 shadow-xl flex items-center gap-3.5 max-w-[270px]">
+              <div className="absolute -top-4 -left-4 sm:-left-6 bg-white/95 backdrop-blur-md border border-emerald-900/15 rounded-2xl p-4 shadow-xl flex items-center gap-3.5 max-w-[270px] z-10">
                 <div className="w-11 h-11 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center shrink-0">
                   <GraduationCap className="w-6 h-6" />
                 </div>
@@ -62,6 +62,23 @@ export default function SobreEspecialista() {
               </div>
 
             </div>
+
+            {/* Diploma Oficial Integrado com Elegância */}
+            <div className="w-full max-w-md bg-white rounded-2xl p-3 sm:p-4 border border-emerald-950/10 shadow-lg">
+              <div className="relative aspect-[16/11] w-full rounded-xl overflow-hidden bg-slate-50 border border-slate-200/80">
+                <Image
+                  src="/images/diploma.png"
+                  alt="Diploma Oficial da Dilene Araújo - Long Island School of Electrolysis"
+                  fill
+                  className="object-contain p-1.5"
+                />
+              </div>
+              <div className="flex items-center justify-center gap-2 mt-2.5 text-emerald-950 font-bold text-xs">
+                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-700 shrink-0" />
+                <span>Certificação Oficial (Nova York, EUA)</span>
+              </div>
+            </div>
+
           </div>
 
           {/* LADO DIREITO: A História e a Autoridade da Mentora */}
@@ -121,6 +138,7 @@ export default function SobreEspecialista() {
           </div>
 
         </div>
+
       </div>
     </section>
   );
