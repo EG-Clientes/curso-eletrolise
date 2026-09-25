@@ -17,8 +17,8 @@ export default function Mentoria() {
   const pilaresMentoria = [
     {
       icone: Video,
-      titulo: "4 Encontros Semanais ao Vivo",
-      descricao: "São 120 minutos de aula ao vivo a cada domingo (8 horas de acompanhamento em tempo real), direto com Dilene Araújo em sala virtual exclusiva."
+      titulo: "4 Encontros Semanais Online ao Vivo",
+      descricao: "São 120 minutos de aula online ao vivo a cada semana (8 horas de acompanhamento em tempo real), direto com Dilene Araújo em sala virtual exclusiva."
     },
     {
       icone: Calendar,
@@ -73,9 +73,9 @@ export default function Mentoria() {
               <div className="absolute bottom-5 left-5 right-5 bg-emerald-950/90 backdrop-blur-md rounded-2xl p-4 text-white border border-white/10 shadow-xl">
                 <div className="flex items-center gap-3 mb-1">
                   <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping" />
-                  <span className="text-xs font-bold uppercase tracking-wider text-amber-300">Ao Vivo pelo Google Meet / Zoom</span>
+                  <span className="text-xs font-bold uppercase tracking-wider text-amber-300">Online Ao Vivo pelo Google Meet / Zoom</span>
                 </div>
-                <p className="text-sm font-semibold text-white">4 Domingos • 120 minutos por encontro</p>
+                <p className="text-sm font-semibold text-white">4 Encontros • 120 minutos por encontro</p>
                 <p className="text-[11px] text-slate-300 mt-0.5">Comunicação prévia com a turma para alinhamento de horários.</p>
               </div>
             </div>
@@ -122,7 +122,7 @@ export default function Mentoria() {
                   <span>Cronograma Exclusivo por Turma</span>
                 </div>
                 <h4 className="text-base sm:text-lg font-extrabold text-slate-900">
-                  4 Encontros aos Domingos • A partir do 15º dia
+                  4 Encontros Semanais • A partir do 15º dia
                 </h4>
                 <p className="text-xs sm:text-sm text-slate-700 font-medium leading-relaxed max-w-xl mt-1">
                   Encontros virtuais em grupo reduzido para tirar dúvidas. <span className="text-slate-500 font-normal">(Sujeito a mudança de dia/horário com aviso prévio).</span>

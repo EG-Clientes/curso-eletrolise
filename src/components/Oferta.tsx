@@ -83,7 +83,7 @@ export default function Oferta() {
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-amber-300 shrink-0 mt-0.5" />
                     <span className="text-sm sm:text-base text-emerald-50">
-                      <strong>20 horas de conteúdo teórico autoral:</strong> anatomia folicular, galvânica, termólise, método blend e anamnese.
+                      <strong>20 horas de conteúdo teórico autoral:</strong> anatomia folicular, corrente galvânica, termólise, método blend, biossegurança e anamnese.
                     </span>
                   </div>
 

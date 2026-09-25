@@ -125,7 +125,7 @@ export default function Hero() {
             {/* Aviso de escassez e exclusividade */}
             <p className="mt-4 text-xs sm:text-sm text-slate-600 flex items-center gap-2">
               <Clock className="w-4 h-4 text-amber-600 shrink-0" />
-              <span>Vagas limitadas por turma para garantir mentoria individualizada aos domingos.</span>
+              <span>Vagas limitadas por turma para garantir mentoria individualizada.</span>
             </p>
 
           </div>

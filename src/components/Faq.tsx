@@ -15,8 +15,8 @@ export default function Faq() {
       resposta: "Ao se matricular, você tem liberação parcial imediata do conteúdo em aulas para já iniciar seus estudos. A liberação completa do material didático autoral com todos os slides e PDF para download definitivo é liberada a partir do 8º dia da compra."
     },
     {
-      pergunta: "Como e quando acontecem as mentorias ao vivo com Dilene Araújo?",
-      resposta: "Os encontros ao vivo online iniciam a partir do 15º dia após a compra, garantindo que você já tenha assistido e absorvido a base teórica. São 4 encontros aos domingos, com duração de 120 minutos cada (8 horas no total), em turmas fechadas para tirar dúvidas."
+      pergunta: "Como e quando acontecem as mentorias online ao vivo com Dilene Araújo?",
+      resposta: "Os encontros ao vivo online iniciam a partir do 15º dia após a compra, garantindo que você já tenha assistido e absorvido a base teórica. São 4 encontros semanais, com duração de 120 minutos cada (8 horas no total), em turmas fechadas para tirar dúvidas."
     },
     {
       pergunta: "A eletrólise realmente funciona em pelos brancos, claros e ruivos?",
