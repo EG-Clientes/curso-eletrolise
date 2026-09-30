@@ -161,7 +161,7 @@ export default function Oferta() {
 
                 {/* Nota Literal do Print 01 */}
                 <p className="text-[10px] text-emerald-200/60 mt-3 leading-snug max-w-[280px]">
-                  Material teórico com liberação parcial; liberação total (inclusive download) a partir do 8º dia da compra.
+                  liberado para download permanente a partir do oitavo dia.
                 </p>
               </div>
 

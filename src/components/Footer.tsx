@@ -29,8 +29,11 @@ export default function Footer() {
               <span className="font-bold text-lg tracking-tight text-white leading-tight block">
                 Dilene Araújo
               </span>
-              <span className="text-[11px] uppercase tracking-wider text-amber-300 font-semibold">
+              <span className="text-[11px] uppercase tracking-wider text-amber-300 font-semibold block">
                 Especialização em Eletrólise
+              </span>
+              <span className="text-[10px] uppercase tracking-wider text-amber-300/80 font-medium block">
+                Depilação Definitiva
               </span>
             </div>
           </div>
