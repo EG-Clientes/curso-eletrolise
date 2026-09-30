@@ -29,9 +29,9 @@ export default function Oferta() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-5">
-            O investimento que se paga com os seus{" "}
+            Multiplique seu faturamento com um{" "}
             <span className="font-serif italic font-medium text-emerald-800">
-              primeiros atendimentos.
+              investimento inteligente.
             </span>
           </h2>
 

@@ -52,7 +52,7 @@ export default function Mentoria() {
 
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-medium">
             O grande diferencial desta formação é o acesso direto à mentora. Encontros online semanais, 
-            pensados sob medida para eliminar suas dúvidas.
+            pensados sob medida para esclarecer suas dúvidas.
           </p>
         </div>
 
