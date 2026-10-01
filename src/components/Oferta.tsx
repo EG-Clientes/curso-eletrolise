@@ -36,7 +36,7 @@ export default function Oferta() {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-medium">
-            Tenha em mãos a formação teórica de alto nível e o acompanhamento próximo de quem é expert no assunto.
+            Tenha em mãos a formação teórica de alto nível e a mentoria de quem é expert no assunto.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ export default function Oferta() {
                   <div className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-amber-300 shrink-0 mt-0.5" />
                     <span className="text-sm sm:text-base text-emerald-50">
-                      <strong>20 horas de conteúdo teórico autoral:</strong> anatomia folicular, corrente galvânica, termólise, método blend, biossegurança e anamnese.
+                      <strong>20 horas de conteúdo teórico autoral:</strong> anatomia folicular, corrente galvânica, termólise, método blend, biossegurança, anamnese e histórico da técnica
                     </span>
                   </div>
 

@@ -96,7 +96,7 @@ export default function GradeConteudo() {
               <span>Assinatura Autoral</span>
             </div>
             <h3 className="text-sm sm:text-base font-bold text-slate-900 leading-snug">
-              O método Raiz Eletrólise na Especialização em Eletrólise
+              O método na Especialização em Eletrólise by Dilene Araújo
             </h3>
           </div>
 
@@ -105,7 +105,7 @@ export default function GradeConteudo() {
 
           {/* Lado Direito: Texto Exato com Alto Contraste e Destaque Visual */}
           <p className="text-xs sm:text-sm text-slate-800 leading-relaxed font-normal">
-            O método exclusivo desenvolvido por <strong>Dilene Araújo</strong> une <strong>prática ergonômica</strong>, <strong>calibração perfeita de potência</strong> e <strong>experiência sensorial acolhedora</strong> para a cliente. A especialização em eletrólise através deste curso de eletrólise posiciona você na <strong className="text-emerald-950 font-bold">vanguarda da depilação elétrica definitiva no Brasil</strong>.
+            O método exclusivo desenvolvido por <strong>Dilene Araújo</strong> une <strong>prática ergonômica</strong>, <strong>calibração perfeita de potência</strong> e <strong>experiência sensorial acolhedora</strong> para a cliente. A especialização em eletrólise através deste curso de eletrólise by Dilene Araújo posiciona você na <strong className="text-emerald-950 font-bold">vanguarda da depilação elétrica definitiva no Brasil</strong>.
           </p>
         </div>
 

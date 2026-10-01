@@ -12,7 +12,7 @@ export default function Faq() {
     },
     {
       pergunta: "Quando recebo o material didático autoral para download?",
-      resposta: "Ao se matricular, você tem liberação parcial imediata do conteúdo em aulas para já iniciar seus estudos. A liberação completa do material didático autoral com todos os slides e PDF para download definitivo é liberada a partir do 8º dia da compra."
+      resposta: "Ao se matricular, você tem liberação parcial imediata do conteúdo em aulas para já iniciar seus estudos. A liberação completa do material didático autoral para download definitivo é liberada a partir do 8º dia da compra."
     },
     {
       pergunta: "Como e quando acontecem as mentorias online ao vivo com Dilene Araújo?",
@@ -28,7 +28,7 @@ export default function Faq() {
     },
     {
       pergunta: "Quem pode fazer o curso?",
-      resposta: "A especialização é destinada a esteticistas e profissionais da área da saúde que desejam se especializar na técnica definitiva de eletrólise."
+      resposta: "A especialização é destinada a esteticistas e profissionais da área da saúde que desejam se especializar na técnica de depilação definitiva por eletrólise."
     },
     {
       pergunta: "Quais são as formas de pagamento disponíveis na Hotmart?",

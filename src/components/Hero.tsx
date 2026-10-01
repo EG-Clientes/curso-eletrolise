@@ -113,13 +113,6 @@ export default function Hero() {
                 <span>Quero Me Especializar Agora</span>
                 <ArrowRight className="w-5 h-5" />
               </a>
-
-              <a
-                href="#metodo"
-                className="inline-flex items-center justify-center px-6 py-4 rounded-full text-base font-semibold text-slate-700 hover:text-emerald-900 hover:bg-emerald-50 transition-colors duration-200"
-              >
-                Conhecer o Programa
-              </a>
             </div>
 
             {/* Aviso de escassez e exclusividade */}

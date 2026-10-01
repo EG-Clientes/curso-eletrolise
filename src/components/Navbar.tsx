@@ -53,14 +53,14 @@ export default function Navbar() {
                 />
               </div>
               <div className="flex flex-col shrink-0 whitespace-nowrap">
-                <span className="font-bold text-xl sm:text-2xl tracking-tight text-emerald-950 leading-tight whitespace-nowrap">
-                  Dilene Araújo
-                </span>
-                <span className="text-xs sm:text-sm uppercase tracking-wider text-emerald-700 font-bold whitespace-nowrap mt-1 leading-tight">
+                <span className="font-bold text-base sm:text-lg tracking-tight text-emerald-700 leading-tight whitespace-nowrap">
                   Especialização em Eletrólise
                 </span>
-                <span className="text-xs sm:text-sm uppercase tracking-wider text-emerald-800 font-bold whitespace-nowrap leading-tight">
+                <span className="text-xs sm:text-sm font-bold tracking-tight text-emerald-700 leading-tight whitespace-nowrap mt-0.5">
                   Depilação Definitiva
+                </span>
+                <span className="font-serif italic text-sm sm:text-base font-semibold text-[#C99700] tracking-normal whitespace-nowrap leading-tight mt-1.5">
+                  by Dilene Araújo
                 </span>
               </div>
             </button>

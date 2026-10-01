@@ -10,7 +10,7 @@ export default function TermosPage() {
     {
       numero: "1",
       titulo: "OBJETO",
-      texto: "Esta especialização oferece formação teórica online sobre eletrólise — Especialização Teórica Avançada em Eletrólise com Mentoria ao Vivo — by Dilene Araújo —, com conteúdo didático em slides, orientações profissionais, mentoria ao vivo e emissão de certificado digital de conclusão."
+      texto: "Esta especialização oferece formação teórica online sobre eletrólise — Especialização Teórica Avançada em Eletrólise com Mentoria ao Vivo — by Dilene Araújo —, com conteúdo didático em slides, mentoria ao vivo e emissão de certificado digital de conclusão."
     },
     {
       numero: "2",
@@ -20,22 +20,22 @@ export default function TermosPage() {
     {
       numero: "3",
       titulo: "ACESSO AO CONTEÚDO E LIBERAÇÃO DO MATERIAL",
-      texto: "Após a confirmação do pagamento, o aluno recebe acesso à Área de Membros. O material teórico é liberado de forma parcial após a compra. A liberação total do conteúdo, inclusive para download, ocorre a partir do 8º (oitavo) dia após a data da compra. O acesso é pessoal e intransferível. Não é permitido compartilhar login, senha, links ou arquivos."
+      texto: "Após a confirmação do pagamento, o aluno recebe acesso à Área de Membros. O material teórico é liberado de forma parcial após a compra. A liberação do conteúdo para download, ocorre a partir do 8º (oitavo) dia após a data da compra. O acesso é pessoal e intransferível. Não é permitido compartilhar login, senha, links ou arquivos."
     },
     {
       numero: "4",
       titulo: "DOWNLOAD DOS MATERIAIS",
-      texto: "O download completo dos materiais NÃO é liberado imediatamente. A liberação total do material teórico, inclusive para download, fica disponível a partir do 8º (oitavo) dia após a data da compra. Até lá, o estudo é realizado online na Área de Membros, conforme a liberação parcial dos módulos/conteúdos."
+      texto: "A liberação total do material teórico para download, fica disponível a partir do 8º (oitavo) dia após a data da compra. Até lá, o estudo é realizado online na Área de Membros."
     },
     {
       numero: "5",
       titulo: "CERTIFICADO DE CONCLUSÃO",
-      texto: "O certificado será emitido somente após 20 (vinte) dias da compra e conclusão do conteúdo. O certificado é emitido em formato digital. Caso o aluno deseje via impressa pelos Correios, deverá solicitar e arcar integralmente com os custos de impressão e envio. O certificado comprova a conclusão do conteúdo teórico e não substitui exigências legais para o exercício profissional."
+      texto: "O certificado será emitido somente após 20 (vinte) dias da compra e conclusão do conteúdo. O certificado é emitido em formato digital. O certificado comprova a conclusão do conteúdo teórico e não substitui exigências legais para o exercício profissional."
     },
     {
       numero: "6",
       titulo: "ENCONTROS DE DÚVIDAS / MENTORIA AO VIVO",
-      texto: "As mentorias ao vivo iniciam a partir do 15º (décimo quinto) dia após a compra. Serão oferecidos 4 (quatro) encontros semanais de 120 (cento e vinte) minutos por turma. As mentorias ocorrem aos domingos, podendo haver alteração de dia ou horário quando necessário, com aviso prévio aos participantes da turma. Os encontros são coletivos (Meet ou Zoom), em formato de turma."
+      texto: "As mentorias online ao vivo iniciam a partir do 15º (décimo quinto) dia após a compra. Serão oferecidos 4 (quatro) encontros online semanais de 120 (cento e vinte) minutos por turma. As mentorias ocorrem semanalmente, podendo haver alteração de dia ou horário quando necessário, com aviso prévio aos participantes da turma. Os encontros são online ao vivo (Meet ou Zoom)."
     },
     {
       numero: "7",
@@ -45,7 +45,7 @@ export default function TermosPage() {
     {
       numero: "8",
       titulo: "O QUE ESTÁ INCLUÍDO",
-      texto: "Acesso ao conteúdo teórico online em slides (liberação parcial, com liberação total inclusive download a partir do 8º dia); certificado digital; e mentoria ao vivo conforme o item 6. Não inclui equipamentos. Envio físico do certificado pelos Correios, se solicitado, será por conta do aluno."
+      texto: "Acesso ao conteúdo teórico online em slides (com liberação total para download a partir do 8º dia); certificado digital; e mentoria ao vivo conforme o item 6. Não inclui equipamentos. Envio físico do certificado pelos Correios, se solicitado, será por conta do aluno."
     },
     {
       numero: "9",
