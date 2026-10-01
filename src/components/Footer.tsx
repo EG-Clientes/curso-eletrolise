@@ -25,15 +25,15 @@ export default function Footer() {
                 className="h-12 w-12 object-contain"
               />
             </div>
-            <div className="text-left">
-              <span className="font-bold text-lg tracking-tight text-white leading-tight block">
-                Dilene Araújo
-              </span>
-              <span className="text-[11px] uppercase tracking-wider text-amber-300 font-semibold block">
+            <div className="flex flex-col shrink-0 whitespace-nowrap text-left">
+              <span className="font-bold text-base sm:text-lg tracking-tight text-white leading-tight whitespace-nowrap">
                 Especialização em Eletrólise
               </span>
-              <span className="text-[10px] uppercase tracking-wider text-amber-300/80 font-medium block">
+              <span className="text-xs sm:text-sm font-bold tracking-tight text-emerald-200/90 leading-tight whitespace-nowrap mt-0.5">
                 Depilação Definitiva
+              </span>
+              <span className="font-serif italic text-sm sm:text-base font-semibold text-amber-300 tracking-normal whitespace-nowrap leading-tight mt-1">
+                by Dilene Araújo
               </span>
             </div>
           </div>

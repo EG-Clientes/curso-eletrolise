@@ -60,7 +60,7 @@ export default function Oferta() {
                   </span>
                 </h3>
                 <p className="text-sm text-emerald-200 mt-1">
-                  por Dilene Araújo • Certificação Internacional em NY
+                  by Dilene Araújo • Certificação Internacional em NY
                 </p>
               </div>
 
