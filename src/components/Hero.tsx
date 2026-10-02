@@ -71,7 +71,7 @@ export default function Hero() {
 
             {/* Headline limpa, elegante, sem traços e com destaque verde */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.18] mb-5">
-              A especialização avançada que elimina os pelos na raiz: alcance com precisão{" "}
+              Tecnologia avançada para eliminação completa e definitiva dos pelos: alcance com precisão{" "}
               <span className="font-serif italic font-medium text-emerald-800">
                 onde o laser não atua.
               </span>

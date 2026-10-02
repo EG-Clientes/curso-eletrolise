@@ -54,7 +54,7 @@ export default function Oferta() {
                   Turma com Mentoria Online ao Vivo
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-bold text-white tracking-tight mt-3">
-                  Especialização Avançada em Eletrólise
+                  Especialização Teórica Avançada em Eletrólise
                   <span className="block font-serif italic font-medium text-amber-300 text-xl sm:text-2xl mt-1">
                     Depilação Definitiva
                   </span>

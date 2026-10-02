@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col shrink-0 whitespace-nowrap text-left">
               <span className="font-bold text-base sm:text-lg tracking-tight text-white leading-tight whitespace-nowrap">
-                Especialização em Eletrólise
+                Especialização Teórica em Eletrólise
               </span>
               <span className="text-xs sm:text-sm font-bold tracking-tight text-emerald-200/90 leading-tight whitespace-nowrap mt-0.5">
                 Depilação Definitiva
